@@ -1,59 +1,34 @@
 # e-plantShopping
 
-## Paradise Nursery: aplicación de carrito de compras
+Proyecto: **Paradise Nursery**
 
-**e-plantShopping** es una aplicación web de comercio electrónico para **Paradise Nursery**, una tienda en línea de plantas de interior. Fue desarrollada con **React** y **Redux Toolkit** como proyecto final del curso.
+e-plantShopping es una aplicación de compras en línea para una tienda de plantas de interior, desarrollada con React y Redux Toolkit.
 
-### Funcionalidades
+## Funcionalidades
 
-- **Página de inicio** con el nombre de la tienda, una breve descripción y el botón "Get Started".
-- **Catálogo de plantas** organizado en 5 categorías: purificadoras de aire, aromáticas, repelentes de insectos, medicinales y de bajo mantenimiento.
-- **Botón "Add to Cart"**, que se deshabilita una vez que la planta se agregó al carrito.
-- **Barra de navegación** con enlaces a Paradise Nursery (inicio), Plants (catálogo) y el ícono del carrito, que muestra la cantidad total de artículos.
-- **Carrito de compras** donde puedes:
-  - aumentar o disminuir la cantidad de cada planta,
-  - eliminar plantas,
-  - ver el subtotal por planta y el costo total,
-  - volver al catálogo con "Continue Shopping",
-  - usar el botón "Checkout" (próximamente).
+- Página de inicio con el nombre de la empresa, una descripción y un botón "Get Started".
+- Catálogo de plantas de interior agrupadas por categorías, con imagen, nombre y precio.
+- Botón "Add to Cart" que agrega la planta al carrito y se desactiva después de agregarla.
+- Barra de navegación con enlaces a Inicio, Plantas y Carrito, e ícono del carrito con el total de artículos.
+- Página del carrito con el subtotal de cada planta, el total general, botones para aumentar, disminuir y eliminar, un botón de pago ("Próximamente") y un botón para continuar comprando.
 
-### Tecnologías
+## Tecnologías
 
 - React
-- Redux Toolkit (`createSlice`, `configureStore`)
-- JavaScript (ES6+)
-- CSS
+- Redux Toolkit
+- Vite
 
-### Cómo ejecutar el proyecto
+## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/TU_USUARIO/e-plantShopping.git
+git clone https://github.com/Maria-uio/e-plantShopping.git
 cd e-plantShopping
 npm install
-npm run dev
-```
-
-Para ver la versión compilada:
-
-```bash
 npm run build
 npm run preview
 ```
 
-### Estructura principal
-
-```
-e-plantShopping/
-├── src/
-│   ├── App.jsx
-│   ├── ProductList.jsx
-│   ├── CartItem.jsx
-│   ├── CartSlice.jsx
-│   ├── store.js
-│   └── main.jsx
-├── package.json
-└── README.md
-```
+La aplicación se ejecuta en el puerto 4173.
 
 ### Maria-uio
 
